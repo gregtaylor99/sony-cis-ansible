@@ -1,1 +1,27 @@
-[raxhosts]
+[del-dev-hosts]
+
+[del-prod-hosts]
+Del-PROD-VPNGate-1a 10.11.114.7
+blank 10.11.114.13
+AdsBastion 10.11.114.5
+Delivery-PaloAlto-01 10.11.114.46
+DelP-V2_Utilities 10.11.114.25
+DelP-V2 10.11.114.22
+DelP-EAI2-Cache 10.11.114.9
+DelP-V2_SvcWorker 10.11.114.177
+DelP-V2 10.11.114.20
+Del-PROD-Bastion-1a 10.11.114.4
+delP-AL-Appliance 10.11.114.27
+DelP-V2 10.11.114.161
+Del-PROD-NAT-1a 10.11.114.6
+DelP-V2 10.11.114.148
+DelP-V2_Ddexws 10.11.114.133
+DelP-V2_SvcWorker 10.11.114.147
+delp-v2-worker2 10.11.114.181
+DelP-V2_NFS-Queue 10.11.114.185
+Del-PROD-NAS 10.11.114.149
+DelP-V2 - delp-v2-dashbd1 10.11.114.116
+DelP-V2 10.11.114.30
+DelP-V2 10.11.114.28
+DelP-V2 - delp-eai2-queue1 10.11.114.118
+
