@@ -1,0 +1,300 @@
+
+Central - Radio Promo - PROD
+BASTION - ec2-RP-BASTION running 52.28.192.150 115 DMZ Key - 10.11.115.12
+
+10.11.115.20
+10.11.115.42
+10.11.115.11
+10.11.115.14
+
+NO KEY:
+IVS SCanner - 10.11.115.6
+
+Central - PE and TOA - PROD
+BASTION - 52.28.253.175 PE External DMZ or 52.28.234.184 TOA External DMZ
+10.11.104.8
+10.11.104.10
+10.11.104.13
+10.11.104.30
+10.11.104.44
+10.11.104.94
+
+GMP - PROD
+Bastion Host 52.29.112.63 SME GMP Public SN 10.11.118.5
+10.11.118.4
+10.11.118.5
+10.11.118.12
+10.11.118.22
+
+GMP - 
+10.11.124.92
+10.11.124.147
+10.11.124.148
+10.11.124.151
+10.11.124.172
+10.11.124.173
+10.11.124.201
+10.11.124.214
+10.11.124.232
+10.11.124.249
+10.11.124.251
+10.11.124.253
+
+MC - PROD
+172.29.0.144
+172.29.0.200
+172.29.1.225
+172.29.1.212
+172.29.0.183
+172.29.0.77
+172.29.4.236
+172.29.1.205
+172.29.1.18
+172.29.3.23
+172.29.1.193
+172.29.3.39
+172.29.2.238
+172.29.1.224
+172.29.1.192
+172.29.0.172
+172.29.1.125
+172.29.1.10 
+172.29.0.138
+172.29.0.196
+172.29.1.64 
+172.29.1.133
+172.29.3.7
+172.29.1.93
+172.29.2.157
+172.29.5.37
+172.29.1.140
+172.29.0.94
+172.29.2.114
+172.29.1.207
+172.29.0.157
+172.29.4.166
+172.29.0.160
+172.29.1.7
+172.29.1.187
+172.29.2.213
+172.29.0.224
+172.29.1.49
+172.29.1.118
+172.29.0.130 
+172.29.1.67
+172.29.0.44
+172.29.0.238
+172.29.0.70
+172.29.1.111
+172.29.1.68
+172.29.0.33
+172.29.0.167
+172.29.0.76
+172.29.0.192
+172.29.2.53
+172.29.0.23
+172.29.0.229
+172.29.0.209
+172.29.1.199
+172.29.0.202
+172.29.1.227
+172.29.0.217
+172.29.1.85
+172.29.1.69
+172.29.0.211
+172.29.1.127
+172.29.1.194
+172.29.0.53
+172.29.0.21
+172.29.1.211
+172.29.1.144
+172.29.0.178
+172.29.0.225
+172.29.1.81
+172.29.0.105
+172.29.1.214
+172.29.1.65
+172.29.0.82
+172.29.0.89
+172.29.1.86
+172.29.0.129
+172.29.1.0
+172.29.0.242
+172.29.1.221
+172.29.3.251
+172.29.0.216
+172.29.1.246
+172.29.1.19
+172.29.1.34
+172.29.3.189
+172.29.0.187
+172.29.1.179
+172.29.4.232
+172.29.0.52
+172.29.1.174 
+172.29.0.119
+172.29.0.135
+172.29.0.227 
+172.29.0.170 
+172.29.1.121
+172.29.0.201
+172.29.0.249
+172.29.1.178
+172.29.1.201
+172.29.1.50
+172.29.0.151
+172.29.1.213
+172.29.0.15
+172.29.1.30
+172.29.0.145
+172.29.2.94
+172.29.1.80
+172.29.1.25
+172.29.2.204
+172.29.0.136
+172.29.0.223
+172.29.2.66
+172.29.2.6
+172.29.0.75
+172.29.1.182
+172.29.1.135
+172.29.0.219
+172.29.0.41
+172.29.1.14
+172.29.0.150
+172.29.1.116
+172.29.0.128
+172.29.0.58
+172.29.1.209
+172.29.0.78
+172.29.0.236
+172.29.1.112
+172.29.1.160
+172.29.1.123
+172.29.1.6
+172.29.0.166
+172.29.0.162
+172.29.1.82
+172.29.5.7
+172.29.0.86
+172.29.1.16
+172.29.1.62
+172.29.0.121
+172.29.1.36
+172.29.0.83
+172.29.1.210
+172.29.0.134
+172.29.2.45
+172.29.2.9
+172.29.1.162
+172.29.1.163
+172.29.3.49
+172.29.0.198
+172.29.1.249
+172.29.0.218 
+172.29.0.14 
+172.29.0.90 
+172.29.0.251 
+172.29.1.57 
+172.29.1.15 
+172.29.0.241 
+172.29.1.197 
+172.29.1.59 
+172.29.0.175 
+172.29.1.139 
+172.29.0.168 
+172.29.3.232 
+172.29.0.62
+172.29.1.180
+
+Media Conversion - DEV
+172.29.6.6
+172.29.6.9
+172.29.6.14
+172.29.6.71
+172.29.6.78
+
+
+https://signin.aws.amazon.com/switchrole?account=rob-smecde&roleName=CloudOpsExtern
+https://signin.aws.amazon.com/switchrole?account=sme-central-radio-promo&roleName=CloudOpsAdmin
+https://signin.aws.amazon.com/switchrole?account=sme-central-dev&roleName=CloudOpsAdmin
+https://signin.aws.amazon.com/switchrole?account=sme-ca&roleName=CloudOpsAdmin
+https://signin.aws.amazon.com/switchrole?account=sme-ca-dev&roleName=CloudOpsAdmin
+https://signin.aws.amazon.com/switchrole?account=sme-dadc-gmp&roleName=CloudOpsAdmin
+https://signin.aws.amazon.com/switchrole?account=sme-dadc-mps&roleName=CloudOpsAdmin (Keith Osani acount)
+https://signin.aws.amazon.com/switchrole?account=mc-smcdp-de-aws&roleName=CloudOpsAdmin
+https://signin.aws.amazon.com/switchrole?account=sme-media-conversion-dev&roleName=CloudOpsAdmin
+
+
+DADC GMP - PROD
+NAT Gateway running 52.28.119.197 SME GMP Public SN 10.11.118.4
+
+VPN Gateway running 52.28.91.251 SME GMP Public SN 10.11.118.12
+
+Jasper Reporting Server running SME GMP Private SN 10.11.118.22
+
+NO KEY: AL Threat Manager running 52.28.23.171 10.11.118.7 
+
+
+NO KEYS:
+GMP Reports App Server 1 running GMPReportsDeveloperSupport 10.11.124.92
+
+Dashboard Test Replication 3 running 52.58.19.160 DashStage2KeyPair 10.11.124.147
+
+Dashboard Test 1 running 52.29.240.227 DashStage2KeyPair 10.11.124.148
+
+Dashboard Stage 1 running 52.28.103.171 DashboardAppServerAccess 10.11.124.151
+ 
+ Dashboard App Usage Collector running 52.28.130.33 DashStage2KeyPair 10.11.124.172 
+
+ Dashboard Charts 1 running 52.28.175.144 DashStage2KeyPair 10.11.124.173
+  
+  NAT for SAMIS VPC 2 running 52.28.60.140 SAMISVPCNAT 10.11.124.201
+   
+   Dashboard Deployment Server running 52.29.27.149 MongoDB access 10.11.124.214 
+
+   Dashboard Test Replication 1 running 52.58.19.124 DashStage2KeyPair 10.11.124.232
+
+   Dashboard Test Replication 2 running 52.28.206.101 DashStage2KeyPair 10.11.124.249 
+
+   Dashboard Dev stopped DashStage2KeyPair 10.11.124.251
+
+   Arvato VPN Gateway running 52.28.66.144 ArvatoVPNGatewayKeyValuePair 10.11.124.253
+
+   Central - PROD
+   ec2-PE-BASTION running 52.28.253.175 PE External DMZ 10.11.104.10 /dev/xvda=vol-7ee3fda7:attached:2016-03-09T16:57:05.000Z:true
+
+   ec2-TOA-BASTION running 52.28.234.184 TOA External DMZ 10.11.104.13 /dev/xvda=vol-a8efd171:attached:2016-02-05T13:51:33.000Z:true
+
+
+   ec2-TOA-PE-VPN GW running TOA External DMZ 10.11.104.8 /dev/xvda=vol-30efd1e9:attached:2016-02-05T13:53:58.000Z:true
+
+   ec2-TOA-PRD-APCH running TOA Prod Env Key 10.11.104.30 /dev/xvda=vol-71ecd2a8:attached:2016-02-05T13:59:32.000Z:true
+
+   ec2-TOA-APP running TOA Prod Env Key 10.11.104.44 /dev/xvda=vol-8eedd357:attached:2016-02-05T14:01:31.000Z:true
+
+   ec2-PE APCH WEB running PE Prod Env Key 10.11.104.94 /dev/xvda=vol-b9819f60:attached:2016-03-09T20:04:23.000Z:true
+
+   ec2-PE APP running PE Prod Env Key 10.11.104.102 /dev/xvda=vol-8e819f57:attached:2016-03-09T20:05:24.000Z:true
+
+
+   ec2-RP-BASTION running 52.28.192.150 115 DMZ Key 10.11.115.12 /dev/xvda=vol-b8929d51:attached:2015-10-01T02:19:29.000Z:true
+
+   ec2-IVS Scanner1 running 54.93.109.80 115ivsscanner 10.11.115.6 /dev/sda1=vol-4f85fd96:attached:2015-11-30T17:25:17.000Z:true
+
+   ec2 115 NAT GW running 52.28.200.72 115 DMZ Key 10.11.115.11/dev/xvda=vol-c7939c2e:attached:2015-10-01T02:15:18.000Z:true
+
+   ec2-RP VPN GW running 52.28.16.115 115 DMZ Key 10.11.115.14 /dev/xvda=vol-29949bc0:attached:2015-10-01T02:14:05.000Z:true
+
+   ec2-RADIO-PRD-APCH running Radio Prom Prod Env Key 10.11.115.20 /dev/xvda=vol-d8dcad01:attached:2015-11-20T19:04:50.000Z:true
+
+   ec2-RP-APP running Radio Prom Stage Env Key 10.11.115.42 /dev/xvda=vol-093831e0:attached:2015-10-03T00:23:36.000Z:true
+
+   NO KEY
+
+   ec-Alert Logic TM Appliance running 54.93.69.205 10.11.104.11 /dev/sda=vol-7892a9a1:attached:2016-02-08T20:37:47.000Z:true
+
+   ec2-RP-Alert Logic Threat Manager running 52.29.110.44 10.11.115.9 /dev/sda=vol-53cead8a:attached:2015-11-04T17:28:40.000Z:true
+   Central - Radio Promo - PROD
+   BASTION - ec2-RP-BASTION running 52.28.192.150 115 DMZ Key - 10.11.115.12
+
