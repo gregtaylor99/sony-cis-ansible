@@ -7,4 +7,6 @@
   tasks:
     - copy: src=/home/ansible/sony-cis-ansible/roles/report/files/cis-cat-full.zip dest=/home/ec2-user/cis-cat-full.zip owner=ec2-user group=ec2-user mode=0644 backup=yes
     - unarchive: src=/home/ec2-user/cis-cat-full.zip dest=/home/ec2-user owner=ec2-user group=ec2-user copy=no
+    - file: path=/home/ec2-user/cis-cat-full/report.sh owner=ec2-user group=ec2-user mode=0755
+    - file: path=/home/ec2-user/cis-cat-full/CIS-CAT.sh owner=ec2-user group=ec2-user mode=0755
     - cron: name="sme-run audit" minute="45" hour="*" user="root" job="/home/ec2-user/cis-cat-full/report.sh >> /home/ec2-user/cis-cat-full/cis-cat.log"
