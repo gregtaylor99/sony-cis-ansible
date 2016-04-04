@@ -1,14 +1,14 @@
 --- # Audit servers and Email back the results
-- hosts: prod
-#  connection: ssh
+- hosts: all
   sudo: yes
-    tasks:
-        - file: path=/tmp/report.html owner=ec2-user group=ec2-user mode=0755
-	- s3: bucket=cis-audits mode=list
-	- s3: bucket=cis-audits mode=create region=us-east-1
-	- s3: bucket=cis-audits object={{ ansible_hostname }}.html src=/tmp/report.html mode=put
+  tasks:
+    - file: path=/tmp/report.html owner=ec2-user group=ec2-user mode=0755
+    - s3: bucket=cis-audits mode=list
+    - s3: bucket=cis-audits mode=create region=us-east-1
+    - s3: bucket=cis-audits object={{ ansible_hostname }}.html src=/tmp/report.html mode=put
 
-        - name: Echo my_env_var
-          shell: "echo $MY_ENV_VARIABLE"
-          environment:
-            MY_ENV_VARIABLE: "{{ ansible_hostname }}"
+    - name: Echo my_env_var
+      shell: "echo $MY_ENV_VARIABLE"
+      environment:
+        MY_ENV_VARIABLE: "{{ ansible_hostname }}"
+
